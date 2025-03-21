@@ -1,0 +1,27 @@
+*{
+  cursor: url('../cursors/point.cur'), auto;
+}
+
+*:active{
+  cursor: url('../cursors/point_click.cur'), auto;
+}
+
+.img-div{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  min-width: 400px;
+}
+
+/* #box{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+} */
+
+/* #box:hover:active{
+  animation:none;
+  cursor: url('../cursors/point_click.cur'), auto;
+} */
