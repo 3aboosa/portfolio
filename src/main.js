@@ -1,13 +1,14 @@
 import { applyCursor } from './cursor.js'
 
-const button = document.createElement("button");
-button.id = 'hover-button';
-button.innerText = 'Hover over me';
-document.querySelector('.img-div').appendChild(button);
-
-  if (navigator.userAgent.includes("Firefox") //fixed spelling
+  if (navigator.userAgent.includes("Firefox")
   || navigator.userAgent.includes("Chrome") 
   || navigator.userAgent.includes("Edge"))
   {
-    applyCursor("#hover-button", "src/cursors/aero_link.ani");
+    applyCursor(".nav-bar-options-projects-link", "src/cursors/aero_link.ani");
+    applyCursor(".nav-bar-options-whoami-link", "src/cursors/aero_link.ani");
+    applyCursor(".footer-links-img", "src/cursors/aero_link.ani");
+
+    applyCursor(".nav-bar-logo-link", "src/cursors/aero_link.ani")
+
+    applyCursor(".footer-flex-contact-link", "src/cursors/aero_link.ani")
   }
