@@ -1,11 +1,15 @@
 *{
-  cursor: url('../cursors/aero_arrow.cur'), auto;
+  cursor: url('../cursors/point.cur'), auto;
   
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 
   font-family: Noto Sans JP, sans-serif;
+}
+
+*:active{
+  cursor: url('../cursors/point_low.cur'), auto;
 }
 
 body{
