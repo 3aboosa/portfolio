@@ -3,30 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>boosa</title>
+
+  <script type="module" src="src/cursor.js"></script>
+  <script type="module" src="src/main.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="src/styles/general.css">
   <link rel="stylesheet" href="src/styles/nav.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
   <link rel="shortcut icon" href="#">
+  
 </head>
 <body>
   <nav class="nav-bar">
     <div class="nav-bar-logo">
-      <a href="/">logo goes here</a>
+      <a class="nav-bar-logo-link" href="/">
+        logo goes here
+      </a>
     </div>
 
-    <div class="nav-bar-links">
-      <a href="/">projects</a>
-      <a href="/">whoami</a>
-      <a href="https://github.com/3aboosa">github</a>
-    </div>
+    <div class="nav-bar-options">
+      <div class="nav-bar-options-projects">
+        <a class="nav-bar-options-projects-link" href="/">
+          projects
+        </a>
+      </div>
 
+      <div class="nav-bar-options-whoami">
+        <a class="nav-bar-options-whoami-link" href="/">
+          whoami
+        </a>
+      </div>
+    </div>
   </nav>
 
   <div class="img-div">
     <img id="maintenance-img" src="src/images/maintenance.jpg" alt="Maintenance image">
   </div>
-  
-  <script type="module" src="src/cursor.js"></script>
-  <script type="module" src="src/main.js"></script>
+
+  <footer class="footer-container">
+
+    <div class="footer-flex">
+
+      <div class="footer-links-container">
+        <a class="footer-links-github" href="https://github.com/3aboosa" target="_blank">
+          <img class="footer-links-img" src="src/images/github_transparent.png" alt="Github logo">
+        </a>
+
+        <a class="footer-links-email" href=""></a>
+      </div>
+
+      <div class="footer-flex-copyright">
+        &copy; boosa.dev
+      </div>
+
+    </div> 
+
+  </footer>
+
 </body>
 </html>
