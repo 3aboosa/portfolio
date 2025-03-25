@@ -16,10 +16,6 @@ body{
   height: 100vh;
   position: relative;
 }
-/* 
-*:active{
-  cursor: url('../cursors/point_click_v2.cur'), auto;
-} */
 
 .img-div{
   display:flex;
@@ -31,14 +27,3 @@ body{
   padding-left: 100px;
   padding-right: 100px;
 }
-
-/* #box{
-  background-color: red;
-  height: 200px;
-  width: 200px;
-} */
-
-/* #box:hover:active{
-  animation:none;
-  cursor: url('../cursors/point_click.cur'), auto;
-} */

@@ -16,6 +16,14 @@
   padding: 20px 30px 0 30px;
 }
 
+.footer-links-container{
+  display: flex;
+  background-color: lightblue;
+  width: 20vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .footer-flex-copyright{
   font-size: 10px;
   color: gray;
@@ -28,4 +36,9 @@
 .footer-links-img{
   height: auto;
   width: 30px
+}
+
+#paper-plane{
+  width: 200px;
+  height: auto;
 }

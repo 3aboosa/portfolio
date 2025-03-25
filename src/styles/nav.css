@@ -18,3 +18,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+.nav-bar-logo-link:hover:active,
+.nav-bar-options-link:hover:active{
+  animation: none;
+  cursor: url('../cursors/point_low.cur'), auto;
+}
