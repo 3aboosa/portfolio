@@ -8,6 +8,7 @@
 
   <script type="module" src="src/cursor.js"></script>
   <script type="module" src="src/main.js"></script>
+  <script type="module" src="src/animator.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,13 +30,13 @@
 
     <div class="nav-bar-options">
       <div class="nav-bar-options-projects">
-        <a class="nav-bar-options-projects-link" href="/">
+        <a class="nav-bar-options-link" href="/">
           projects
         </a>
       </div>
 
       <div class="nav-bar-options-whoami">
-        <a class="nav-bar-options-whoami-link" href="/">
+        <a class="nav-bar-options-link" href="/">
           whoami
         </a>
       </div>
@@ -51,11 +52,18 @@
     <div class="footer-flex">
 
       <div class="footer-links-container">
-        <a class="footer-links-github" href="https://github.com/3aboosa" target="_blank">
-          <img class="footer-links-img" src="src/images/github_transparent.png" alt="Github logo">
-        </a>
+        <div>
+          <a class="footer-links-github" href="https://github.com/3aboosa" target="_blank">
+            <img class="footer-links-img" src="src/images/github_transparent.png" alt="Github logo">
+          </a>
+        </div>
 
-        <a class="footer-links-email" href=""></a>
+        <div class="footer-links-email-container">
+          <a class="footer-links-email" href="/">
+            <canvas id="paper-plane"></canvas>
+          </a>
+        </div>
+        
       </div>
 
       <div class="footer-flex-copyright">
