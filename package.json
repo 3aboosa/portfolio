@@ -12,6 +12,7 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "@lottiefiles/dotlottie-web": "^0.41.0",
     "ani-cursor": "^0.0.5"
   }
 }
