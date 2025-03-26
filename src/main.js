@@ -1,4 +1,4 @@
-import { applyCursor } from './cursor.js'
+import { applyCursor } from './scripts/cursor.js'
 
   if (navigator.userAgent.includes("Firefox")
   || navigator.userAgent.includes("Chrome") 
@@ -10,4 +10,5 @@ import { applyCursor } from './cursor.js'
     applyCursor("#maintenance-img", "src/cursors/grab.ani");
 
     applyCursor(".footer-links-img", "src/cursors/point_click_right.ani");
+    applyCursor(".footer-links-email-canvas", "src/cursors/point_click_right.ani");
   }
