@@ -18,8 +18,8 @@
 
 .footer-links-container{
   display: flex;
-  background-color: lightblue;
-  width: 25vh;
+  /* background-color: lightblue; */
+  width: 200px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -35,14 +35,20 @@
 }
 
 .footer-links-email-container{
-  background-color: lightpink;
+  display: flex;
+  /* background-color: lightpink; */
 
-  width: 50px;
+  width: 55px;
+  height: 55px;
+
+  align-items: center;
+  justify-content: center;
 
   overflow: hidden;
-  overflow-x: 0;
 }
 
-#paper-plane{
-  width: 100px;
+.footer-links-email-canvas{
+  /* background-color: orange; */
+  height: 50px;
+  /* overflow: hidden; */
 }
