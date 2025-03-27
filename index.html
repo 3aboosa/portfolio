@@ -5,74 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>boosa</title>
+  <!-- Inspiration from Keita Yamada! https://p5aholic.me -->
 
   <script type="module" src="src/scripts/cursor.js"></script>
   <script type="module" src="src/main.js"></script>
-  <script type="module" src="src/scripts/animator.js"></script>
+  <!-- <script type="module" src="src/scripts/animator.js"></script> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="src/styles/general.css">
-  <link rel="stylesheet" href="src/styles/nav.css">
-  <link rel="stylesheet" href="src/styles/footer.css">
   <link rel="shortcut icon" href="#">
   
 </head>
 <body>
-  <nav class="nav-bar">
-    <div class="nav-bar-logo">
-      <a class="nav-bar-logo-link" href="/">
-        logo goes here
-      </a>
+  <div class="main-page">
+    <div id="content">
+      <img src="src/images/maintenance.jpg" alt="">
     </div>
-
-    <div class="nav-bar-options">
-      <div class="nav-bar-options-projects">
-        <a class="nav-bar-options-link" href="src/html/projects.html">
-          projects
-        </a>
-      </div>
-
-      <div class="nav-bar-options-whoami">
-        <a class="nav-bar-options-link" href="src/html/whoami.html">
-          whoami
-        </a>
-      </div>
+    <div class="frame">
+      <div class="frame-line frame-left"></div>
+      <div class="frame-line frame-right"></div>
+      <div class="frame-line frame-top"></div>
+      <div class="frame-line frame-bottom"></div>
     </div>
-  </nav>
-
-  <div class="img-div">
-    <img id="maintenance-img" src="src/images/maintenance.jpg" alt="Maintenance image">
   </div>
-
-  <footer class="footer-container">
-
-    <div class="footer-flex">
-
-      <div class="footer-links-container">
-        <div class="footer-links-link-container">
-          <a href="https://github.com/3aboosa" target="_blank">
-            <img class="footer-links-img" src="src/images/github_transparent.png" alt="Github logo">
-          </a>
-        </div>
-
-        <div class="footer-links-email-container">
-          <a href="/">
-            <canvas class="footer-links-email-canvas" id="paper-plane"></canvas>
-          </a>
-        </div>
-        
-      </div>
-
-      <div class="footer-flex-copyright">
-        &copy; boosa.dev
-      </div>
-
-    </div> 
-
-  </footer>
-
 </body>
 </html>
